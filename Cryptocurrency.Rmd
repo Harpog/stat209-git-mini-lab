@@ -1,0 +1,30 @@
+---
+title: "Cryptocurrency price"
+author: "Ben Yost"
+date: "2/15/2018"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+##Cyrptocurrency visualization
+
+(This graph is outdated but I thought it would be acceptable for the assignment.)
+
+![](altcoin_prices_combined.png)
+
+This visualization shows the prices of different cryptocurrencies over time. This graph was found [here](https://blog.patricktriest.com/analyzing-cryptocurrencies-python/).
+
+Value in USD (per unit of currency) is mapped on the y axis, time is mapped on the x axis and each cryptocurrency coresponds to a color. 
+
+These mappings make it easy to compare the progress of different currencies as they are all mapped on the same visual field and have distinct colors.
+
+1) The visulalization is easy to understand and read.
+2) I might consider adding an interactive time scale so that smaller fluctuations in value could be observed, however the visualization acomplishes its purpose.
+
+-Ben Yost
+
+
+
